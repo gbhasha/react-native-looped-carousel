@@ -31,7 +31,7 @@
         "looped"
     ],
     "license": "MIT",
-    "dependencies": {
-        "react-native": "^0.7.0"
+    "peerDependencies": {
+        "react-native": ">= 0.7.0"
     }
 }
