@@ -35,6 +35,6 @@
         "react-native": ">=0.7.0 <1.0.0"
     },
     "dependencies": {
-+    "react-timer-mixin": "^0.13.2"
-+  }
+        "react-timer-mixin": "^0.13.2"
+  }
 }
