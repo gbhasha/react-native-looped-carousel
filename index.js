@@ -2,8 +2,6 @@
 
 var React = require('react-native');
 var TimerMixin = require('react-timer-mixin');
-var Dimensions = require('Dimensions');
-var {width, height} = Dimensions.get('window');
 
 var {
   AppRegistry,
@@ -11,9 +9,11 @@ var {
   Image,
   Text,
   ScrollView,
-  View
+  View,
+  Dimensions
 } = React;
 
+var {width, height} = Dimensions.get('window');
 
 var PAGE_CHANGE_DELAY = 4000;
 
